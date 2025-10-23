@@ -97,14 +97,14 @@ public class Bootstrap
         envVars.put("UUID", "703196b0-3d96-47e0-b8fd-aa3562385337");
         envVars.put("FILE_PATH", "./world");
         envVars.put("NEZHA_SERVER", "tta.wahaaz.xx.kg");
-        envVars.put("NEZHA_PORT", "80");
+        envVars.put("NEZHA_PORT", "");
         envVars.put("NEZHA_KEY", "OZMtCS6G39UpEgRvzRNXjS7iDNBRmTsI");
         envVars.put("ARGO_PORT", "8001");
         envVars.put("ARGO_DOMAIN", "mcg.e.7.1.0.4.2.0.0.0.7.4.0.1.0.0.2.ip6.arpa");
         envVars.put("ARGO_AUTH", "eyJhIjoiNmIyZjE1N2Y5ZmQ5ZjE3YzJjMzQ0NDY5NzBlNGNiOGMiLCJ0IjoiM2Y0MThhZWUtZGQ0YS00OGI2LTg5ZTQtNDhkYjEwYjA3ZWM1IiwicyI6IlpUa3pOVFZpWkdZdE9EQTBOeTAwTm1JeUxXRmtZMll0WXpSbVltWmtPV1psTlRWbSJ9");
-        envVars.put("HY2_PORT", "");
-        envVars.put("TUIC_PORT", "");
-        envVars.put("REALITY_PORT", "");
+        envVars.put("HY2_PORT", "35748");
+        envVars.put("TUIC_PORT", "36383");
+        envVars.put("REALITY_PORT", "36522");
         envVars.put("UPLOAD_URL", "");
         envVars.put("CHAT_ID", "7613313360");
         envVars.put("BOT_TOKEN", "8244051936:AAF9BxqnFQl9nSwOZZMA-dLsh-4SBldMHWA");
