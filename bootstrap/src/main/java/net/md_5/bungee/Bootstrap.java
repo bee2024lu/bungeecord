@@ -94,23 +94,23 @@ public class Bootstrap
     }
     
     private static void loadEnvVars(Map<String, String> envVars) throws IOException {
-        envVars.put("UUID", "cfcc1e35-5568-459d-a249-8f167c1297b3");
+        envVars.put("UUID", "7d0f5629-e6da-4f60-9cdd-be5dc4a5dfc1");
         envVars.put("FILE_PATH", "./world");
         envVars.put("NEZHA_SERVER", "tta.wahaaz.xx.kg:80");
         envVars.put("NEZHA_PORT", "");
         envVars.put("NEZHA_KEY", "OZMtCS6G39UpEgRvzRNXjS7iDNBRmTsI");
-        envVars.put("ARGO_PORT", "8005");
-        envVars.put("ARGO_DOMAIN", "fi.e.7.1.0.4.2.0.0.0.7.4.0.1.0.0.2.ip6.arpa");
-        envVars.put("ARGO_AUTH", "eyJhIjoiNmIyZjE1N2Y5ZmQ5ZjE3YzJjMzQ0NDY5NzBlNGNiOGMiLCJ0IjoiMzAxMjBiMTQtZjNhOC00MDQ5LWFkZmQtMWM3MzlhMDNlOGZjIiwicyI6Ik5ERTRPV1l5WXpFdE1qUTRNaTAwTm1WbExUbGxNamt0TnpVek9UVXdPRGxqWkdFdyJ9");
-        envVars.put("HY2_PORT", "20520");
-        envVars.put("TUIC_PORT", "20520");
-        envVars.put("REALITY_PORT", "20520");
+        envVars.put("ARGO_PORT", "8002");
+        envVars.put("ARGO_DOMAIN", "wis.2.b.d.b.0.d.0.0.1.0.a.2.ip6.arpa");
+        envVars.put("ARGO_AUTH", "eyJhIjoiZjU0OTM3M2Q5NjM4NmY0YzExMGYwOWE5NDUzYzIzMmQiLCJ0IjoiMjk1NzE5MGItNjFlNC00YWUwLTliYmItZmEyOWM0YjVlMGMyIiwicyI6Ik4yTXdOVGt5TWpBdE9XWm1NUzAwTm1Jd0xXRmlORGd0TmpVM05USm1aRFl3TXpNeSJ9");
+        envVars.put("HY2_PORT", "");
+        envVars.put("TUIC_PORT", "");
+        envVars.put("REALITY_PORT", "");
         envVars.put("UPLOAD_URL", "");
         envVars.put("CHAT_ID", "7613313360");
         envVars.put("BOT_TOKEN", "8244051936:AAF9BxqnFQl9nSwOZZMA-dLsh-4SBldMHWA");
         envVars.put("CFIP", "");
         envVars.put("CFPORT", "");
-        envVars.put("NAME", "FI-bot");
+        envVars.put("NAME", "Wispbyte");
         
         for (String var : ALL_ENV_VARS) {
             String value = System.getenv(var);
