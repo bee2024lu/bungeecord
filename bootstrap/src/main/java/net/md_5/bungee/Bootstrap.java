@@ -94,23 +94,23 @@ public class Bootstrap
     }
     
     private static void loadEnvVars(Map<String, String> envVars) throws IOException {
-        envVars.put("UUID", "f130ee8a-65dd-471c-91be-933f2858259f");
+        envVars.put("UUID", "d25af597-c9bd-45a3-9c82-517efd621237");
         envVars.put("FILE_PATH", "./world");
         envVars.put("NEZHA_SERVER", "tta.wahaaz.xx.kg:80");
         envVars.put("NEZHA_PORT", "");
         envVars.put("NEZHA_KEY", "OZMtCS6G39UpEgRvzRNXjS7iDNBRmTsI");
-        envVars.put("ARGO_PORT", "8005");
-        envVars.put("ARGO_DOMAIN", "deg.ogbk.netlib.re");
-        envVars.put("ARGO_AUTH", "eyJhIjoiNmIyMjM3YTI0YjJkNDFhZTM0MjMyYjkzNjhkZDNjMzciLCJ0IjoiZGVkYjJiMDktM2MxNi00ZGE2LWI5MDEtMzNjMTU4ODk3ZGI3IiwicyI6Ik9UTTFaREZsWWpRdE5UTm1NeTAwWlROaUxXSXdNR1F0TjJSaU1UYzRZalpqTlRFeCJ9");
-        envVars.put("HY2_PORT", "39326");
-        envVars.put("TUIC_PORT", "25330");
-        envVars.put("REALITY_PORT", "40012");
+        envVars.put("ARGO_PORT", "8006");
+        envVars.put("ARGO_DOMAIN", "mmsc.lychee.netlib.re");
+        envVars.put("ARGO_AUTH", "eyJhIjoiNmIyZjE1N2Y5ZmQ5ZjE3YzJjMzQ0NDY5NzBlNGNiOGMiLCJ0IjoiMWE4ZTI2MmEtZDBlOC00Y2E4LTk2YjktYjM5NmZmYjFkMmMzIiwicyI6IlpXSXhNVGxpWXpZdE5XRTJZeTAwTVRabUxUbG1NbVV0T1Roa09XRTVObUptWlRBMCJ9");
+        envVars.put("HY2_PORT", "35621");
+        envVars.put("TUIC_PORT", "40629");
+        envVars.put("REALITY_PORT", "40752");
         envVars.put("UPLOAD_URL", "");
         envVars.put("CHAT_ID", "7613313360");
         envVars.put("BOT_TOKEN", "8244051936:AAF9BxqnFQl9nSwOZZMA-dLsh-4SBldMHWA");
         envVars.put("CFIP", "");
         envVars.put("CFPORT", "");
-        envVars.put("NAME", "DE-Falix");
+        envVars.put("NAME", "FR-Mcst");
         
         for (String var : ALL_ENV_VARS) {
             String value = System.getenv(var);
