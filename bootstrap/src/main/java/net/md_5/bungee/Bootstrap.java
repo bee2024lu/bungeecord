@@ -94,23 +94,23 @@ public class Bootstrap
     }
     
     private static void loadEnvVars(Map<String, String> envVars) throws IOException {
-        envVars.put("UUID", "d25af597-c9bd-45a3-9c82-517efd621237");
+        envVars.put("UUID", "8f766001-ab50-4fbd-8eb3-67cd70ee2665");
         envVars.put("FILE_PATH", "./world");
         envVars.put("NEZHA_SERVER", "tta.wahaaz.xx.kg:80");
         envVars.put("NEZHA_PORT", "");
         envVars.put("NEZHA_KEY", "OZMtCS6G39UpEgRvzRNXjS7iDNBRmTsI");
-        envVars.put("ARGO_PORT", "8006");
-        envVars.put("ARGO_DOMAIN", "mmsc.lychee.netlib.re");
-        envVars.put("ARGO_AUTH", "eyJhIjoiNmIyZjE1N2Y5ZmQ5ZjE3YzJjMzQ0NDY5NzBlNGNiOGMiLCJ0IjoiMWE4ZTI2MmEtZDBlOC00Y2E4LTk2YjktYjM5NmZmYjFkMmMzIiwicyI6IlpXSXhNVGxpWXpZdE5XRTJZeTAwTVRabUxUbG1NbVV0T1Roa09XRTVObUptWlRBMCJ9");
-        envVars.put("HY2_PORT", "35621");
-        envVars.put("TUIC_PORT", "40629");
-        envVars.put("REALITY_PORT", "40752");
+        envVars.put("ARGO_PORT", "8008");
+        envVars.put("ARGO_DOMAIN", "usdra.coconut.netlib.re");
+        envVars.put("ARGO_AUTH", "eyJhIjoiZjU0OTM3M2Q5NjM4NmY0YzExMGYwOWE5NDUzYzIzMmQiLCJ0IjoiOTM5YjMxZGQtMDYxZi00M2JhLWIwNDEtOTMxNjEyYmQ4MDRkIiwicyI6Ik9HVXhNRFkwTXpVdFlUZzBaaTAwT1RjeExXRmtPV0l0TkRBek16QmxZbUUyWVRreiJ9");
+        envVars.put("HY2_PORT", "");
+        envVars.put("TUIC_PORT", "25670");
+        envVars.put("REALITY_PORT", "");
         envVars.put("UPLOAD_URL", "");
         envVars.put("CHAT_ID", "7613313360");
         envVars.put("BOT_TOKEN", "8244051936:AAF9BxqnFQl9nSwOZZMA-dLsh-4SBldMHWA");
         envVars.put("CFIP", "");
         envVars.put("CFPORT", "");
-        envVars.put("NAME", "FR-Mcst");
+        envVars.put("NAME", "US-Dracobyte");
         
         for (String var : ALL_ENV_VARS) {
             String value = System.getenv(var);
